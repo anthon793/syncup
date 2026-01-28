@@ -1,0 +1,30 @@
+# Android/IntelliJ/VSCode/Gradle ignores
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+*.iml
+*.apk
+*.ap_*
+*.log
+*.keystore
+*.jks
+*.class
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
+*.vscode/
+.env
+
+# Ignore all Markdown files except readme.md (case-insensitive)
+*.md
+!readme.md
+!README.md
+
+# Ignore sensitive Firebase config
+/app/google-services.json
